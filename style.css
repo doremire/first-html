@@ -1,0 +1,126 @@
+@import url(sanitize.css);
+
+ body{
+ font-family: sans-serif;
+ background-color: #f0f0f0;
+margin: 10px;
+ font-size: 14px;
+ color: #666
+  }
+  
+  .container{
+  border-radius: 3px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+    }
+    
+    header {
+margin: 0 auto;
+    border-radius: 3px;
+    padding:  10px;
+    background-color: #00afcc;
+height: 50px;
+    color: #fff;
+
+      }
+
+      .description img{
+      float: left;
+      margin: 0px 10px 10px 0px;
+      }
+      
+ .information {
+margin-top: 30px;
+}
+
+      .information h1{
+      font-size: 20px;
+      margin: 0px 10px 10px 0px;
+      float: left;
+      }
+      
+      .information .type{
+width: 96px;
+margin: 10px;
+     display: inline-block;
+     background-color: #E35A4D;
+     padding: 3px 5px;
+     font-size: 80%;
+     color: #fff;
+     }  
+      header h1{
+      margin: 0px;
+      font-size: 24px;
+      font-weight: normal;
+      text-align: center;
+      }
+      
+      .style{
+      border-radius: 4px;
+      margin: 20px 0px 0px 20px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.4);
+      clear: left;
+      }
+      
+  .content{
+  background-color: #fff;
+  padding: 20px;
+  }
+  
+  .songs{
+  margin: 0 0 20px;
+  }
+  
+  .songs h2{
+  clear: left;
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+  background-color: #E6E4DD;
+  padding: 5px 10px;
+  }
+  
+  .songs ol{
+  padding: 0;
+  margin: 0;
+  list-style: decimal inside;
+  }
+  
+  .songs li{
+  border-bottom: 1px solid #ccc;
+  width: 50%;
+  float: left;
+  padding: 5px 10px;
+  }
+  
+  .clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+ }
+
+.test {
+margin: 10px 0px 30px 20px;
+  width: 300px;
+  height: 150px;
+  overflow: scroll;
+  border: gray 1px solid;
+}
+
+
+.toptext{
+margin: 0px 0px 0px 0px;
+width: auto;
+font-size: 25px;
+ border-top: solid 3px #0067C0;
+ border-bottom: solid 3px #0067C0
+}
+
+.toptext2{
+margin: 0px 0px 0px 0px;
+width: auto;
+font-size: 25px;
+ border-top: solid 3px #0067C0;
+ border-bottom: solid 3px #0067C0
+}
